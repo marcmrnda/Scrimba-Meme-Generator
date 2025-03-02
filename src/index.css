@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --font-karla: "Karla", sans-serif;
+  --color-startViolet: #672280;
+  --color-endViolet:  #A626D3;
+  --color-anotherViolet: #A818DA;
+  --font-impact: "Impact", sans-serif;
+}
+
+@font-face {
+  font-family: Impact;
+  src: url('./fonts/impact.ttf') format('ttf');
+}
+
+.text-outline {
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
